@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTappedAction(_ sender: UIButton) {
         print(sender.tag)
+        // on branch bug-1
     }
     
     override func viewDidLayoutSubviews() {
